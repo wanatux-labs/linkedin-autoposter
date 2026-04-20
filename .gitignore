@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+linkedin_queue.json
+*.log
+config/
+*.secret
+*token*.json
+.env

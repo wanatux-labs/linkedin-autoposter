@@ -1,0 +1,58 @@
+{
+  "config": {
+    "member_urn": "urn:li:person:XXXXXXXXXX",
+    "token_path": "/path/to/your/linkedin_token.json",
+    "timezone": "America/New_York",
+    "default_post_time": "09:00"
+  },
+  "posts": [
+    {
+      "id": "opinion-01",
+      "type": "opinion",
+      "scheduled_date": "2026-01-06",
+      "scheduled_time": "09:00",
+      "status": "queued",
+      "text": "The fastest way to tell if a new tool is actually helping your team: ask three people what problem it solves.\n\nIf you get three different answers, the tool isn't the problem. Alignment is.",
+      "hashtags": [],
+      "posted_at": null,
+      "post_urn": null
+    },
+    {
+      "id": "article-01",
+      "type": "article",
+      "scheduled_date": "2026-01-08",
+      "scheduled_time": "09:00",
+      "status": "queued",
+      "text": "Most organizations don't have a data problem. They have a question problem.\n\nThe dashboards exist. The pipelines work. But nobody is asking whether the metrics still measure what they were designed to measure.\n\nI wrote about this pattern and how to fix it.\n\nhttps://example.com/your-article-here",
+      "hashtags": [
+        "#DataStrategy",
+        "#Analytics",
+        "#Leadership"
+      ],
+      "posted_at": null,
+      "post_urn": null
+    },
+    {
+      "id": "opinion-02",
+      "type": "opinion",
+      "scheduled_date": "2026-01-10",
+      "scheduled_time": "09:00",
+      "status": "queued",
+      "text": "Before you automate a process, try this:\n\nAsk three people in the same department to describe the workflow. If you get three different answers, that's not a technology problem. That's the problem.\n\nSoftware doesn't fix misalignment. It scales it.",
+      "hashtags": [],
+      "posted_at": null,
+      "post_urn": null
+    },
+    {
+      "id": "opinion-03",
+      "type": "opinion",
+      "scheduled_date": "2026-01-13",
+      "scheduled_time": "09:00",
+      "status": "posted",
+      "text": "A metric that goes up every quarter stops being questioned.\n\nNobody asks whether it still measures what it was designed to measure. The number becomes the reality. The reality drifts somewhere else entirely.",
+      "hashtags": [],
+      "posted_at": "2026-01-13 09:15",
+      "post_urn": "urn:li:share:0000000000000000000"
+    }
+  ]
+}
